@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    gap: 10px;}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0A66C2;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:10px 20px;
+    background:#ffffff;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1);
+    
+}

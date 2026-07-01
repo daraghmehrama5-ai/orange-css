@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+
+    display:flex;
+
+    height:100vh;
+}
+
+.left{
+
+    flex:1;
+
+    background:orange;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.right{
+
+    flex:1;
+
+    background:blue;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+
+    color:white;
+
+    font-size:40px;
+}

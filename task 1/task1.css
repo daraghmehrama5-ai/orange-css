@@ -1,0 +1,40 @@
+body {
+  font-family: Georgia, serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+hr {
+  width: 85%;
+}
+
+table {
+  width: 85%;
+  margin: 20px auto;
+  border: 2px solid gray;
+}
+
+th,
+td {
+  border: 2px solid gray;
+  padding: 6px;
+  font-size: 28px;
+}
+
+th {
+  background-color: yellow;
+  text-align: right;
+}
+
+.highlight {
+  background-color: pink;
+  text-align: center;
+}
+
+.best {
+  text-align: center;
+  font-weight: bold;
+}
