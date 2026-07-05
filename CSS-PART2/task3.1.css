@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+
+
+.signup-page {
+  background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.signup-wrapper {
+  width: 100%;
+  max-width: 620px;
+}
+
+.signup-card {
+  background: white;
+  padding: 45px;
+  border-radius: 4px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.signup-card h1 {
+  font-size: 38px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.signup-card p {
+  color: #999;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.signup-card hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 0 -45px 25px;
+}
+
+.name-row {
+  display: flex;
+  gap: 25px;
+}
+
+.signup-card input {
+  width: 100%;
+  padding: 17px;
+  margin-bottom: 22px;
+  border: none;
+  background: #f0f0f0;
+  border-radius: 4px;
+  font-size: 17px;
+  outline: none;
+}
+
+.check-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #888;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.check-box input {
+  width: auto;
+  margin: 0;
+}
+
+.check-box a,
+.login-text a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.signup-card button {
+  width: 190px;
+  padding: 17px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-text {
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  margin-top: 22px;
+}
+
+.login-text a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* =========================
+   CONTACT PAGE
+========================= */
+
+.contact-page {
+  background: #f3f1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 25px;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1100px;
+}
+
+.contact-card {
+  background: white;
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+}
+
+.navbar {
+  background: #061634;
+  color: white;
+  padding: 18px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo span {
+  background: white;
+  color: #061634;
+  padding: 8px 5px;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+}
+
+.logo p {
+  color: #d24b74;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 23px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.contact-content {
+  text-align: center;
+  padding: 45px 30px 55px;
+}
+
+.contact-content h1 {
+  color: #061634;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.contact-content p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 55px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 390px;
+  margin: 0 auto 55px;
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  color: #333;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+
+.contact-form select {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #ccc;
+  outline: none;
+  background: white;
+}
+
+.contact-content h4 {
+  color: #061634;
+  font-size: 15px;
+}
+
+.contact-footer {
+  background: #f3dfbf;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+.contact-footer h3 {
+  color: #061634;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.contact-footer a {
+  color: #061634;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px) {
+  .signup-card {
+    padding: 35px;
+  }
+
+  .signup-card hr {
+    margin: 0 -35px 25px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-content {
+    padding: 40px 25px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 576px) {
+  .signup-page,
+  .contact-page {
+    padding: 20px;
+  }
+
+  .signup-card {
+    padding: 25px;
+  }
+
+  .signup-card h1 {
+    font-size: 30px;
+  }
+
+  .signup-card p {
+    font-size: 15px;
+  }
+
+  .signup-card hr {
+    margin: 0 -25px 22px;
+  }
+
+  .name-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .signup-card input {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  .signup-card button {
+    width: 100%;
+  }
+
+  .check-box {
+    align-items: flex-start;
+    font-size: 14px;
+  }
+
+  .login-text {
+    font-size: 15px;
+  }
+
+  .navbar {
+    padding: 18px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .contact-content h1 {
+    font-size: 30px;
+  }
+
+  .contact-content p {
+    margin-bottom: 35px;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .contact-footer h3 {
+    font-size: 16px;
+  }
+}
